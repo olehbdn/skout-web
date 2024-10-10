@@ -1,0 +1,170 @@
+.footer {
+  background-color: #f2f2f2; }
+  .footer .footer-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    padding: 0; }
+    .footer .footer-box .footer-wrapper {
+      width: 100%; }
+      .footer .footer-box .footer-wrapper .phone-number {
+        font-family: "Aclonica", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #7f7f7f;
+        text-decoration: none; }
+      .footer .footer-box .footer-wrapper .footer-title {
+        width: 300px;
+        font-family: "Aclonica", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #7f7f7f;
+        text-decoration: none; }
+      .footer .footer-box .footer-wrapper .footer-wrapper-list .footer-list {
+        padding-left: 20px; }
+        .footer .footer-box .footer-wrapper .footer-wrapper-list .footer-list .footer-link {
+          font-family: "Acme", sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 24px;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          color: #7f7f7f;
+          list-style-type: none; }
+      .footer .footer-box .footer-wrapper .footer-wrapper-addresses .address {
+        padding-left: 20px;
+        display: flex;
+        border-top: 2px solid #22bf95;
+        flex-direction: column; }
+      .footer .footer-box .footer-wrapper .footer-wrapper-addresses .address-street {
+        font-family: Aclonica;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 24px;
+        color: #7f7f7f; }
+      .footer .footer-box .footer-wrapper .footer-wrapper-addresses .view-map {
+        font-family: Aclonica;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 24px;
+        text-decoration-line: none;
+        color: #22bf95; }
+    .footer .footer-box .socials {
+      display: flex;
+      flex-direction: column;
+      border-top: 1.5px solid #b2b2b2;
+      margin-top: 20px;
+      padding-top: 10px; }
+      .footer .footer-box .socials .socials-links {
+        display: flex;
+        justify-content: space-around; }
+      .footer .footer-box .socials .for-footer-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .footer .footer-box .socials .for-footer-logo .footer-logo {
+          font-size: 40px;
+          font-weight: 700;
+          color: #7f7f7f;
+          text-transform: uppercase;
+          font-family: "Actor", sans-serif;
+          letter-spacing: 2px; }
+        .footer .footer-box .socials .for-footer-logo .footer-sub-logo {
+          font-weight: 700;
+          color: #7f7f7f;
+          text-transform: uppercase;
+          font-family: "Actor", sans-serif;
+          letter-spacing: 2px; }
+
+@media screen and (min-width: 1366px) {
+  .footer .footer-box {
+    align-items: flex-start;
+    width: 100%; }
+    .footer .footer-box .footer-wrapper {
+      padding-top: 50px !important;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      padding: 0; }
+      .footer .footer-box .footer-wrapper .phone-number {
+        font-family: "Aclonica", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #7f7f7f;
+        text-decoration: none; }
+      .footer .footer-box .footer-wrapper .footer-title {
+        width: 300px;
+        font-family: "Aclonica", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 24px;
+        color: #7f7f7f;
+        text-decoration: none;
+        padding-right: 50px; }
+      .footer .footer-box .footer-wrapper .footer-wrapper-list {
+        margin-right: 100px; }
+        .footer .footer-box .footer-wrapper .footer-wrapper-list .footer-list .footer-link {
+          font-family: "Acme", sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 24px;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          color: #7f7f7f;
+          list-style-type: none;
+          margin-bottom: 15px; }
+      .footer .footer-box .footer-wrapper .footer-wrapper-addresses .address {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center; }
+        .footer .footer-box .footer-wrapper .footer-wrapper-addresses .address .view-map {
+          font-size: 16px; }
+        .footer .footer-box .footer-wrapper .footer-wrapper-addresses .address .address-street {
+          width: 270px;
+          padding-right: 100px; }
+        .footer .footer-box .footer-wrapper .footer-wrapper-addresses .address .phone-number {
+          padding-right: 100px; }
+    .footer .footer-box .socials {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid #b2b2b2;
+      margin-top: 15px; }
+      .footer .footer-box .socials .socials-links {
+        display: flex;
+        justify-content: space-around;
+        width: 375px; }
+      .footer .footer-box .socials .for-footer-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 40px; }
+        .footer .footer-box .socials .for-footer-logo .footer-logo {
+          font-size: 40px;
+          font-weight: 700;
+          color: #7f7f7f;
+          text-transform: uppercase;
+          font-family: "Actor", sans-serif;
+          letter-spacing: 2px; }
+        .footer .footer-box .socials .for-footer-logo .footer-sub-logo {
+          font-weight: 700;
+          color: #7f7f7f;
+          text-transform: uppercase;
+          font-family: "Actor", sans-serif;
+          letter-spacing: 2px;
+          font-size: 12px; } }

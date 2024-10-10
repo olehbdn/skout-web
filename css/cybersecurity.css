@@ -1,0 +1,80 @@
+.cybersecurity .cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center; }
+  .cybersecurity .cards .card {
+    box-shadow: 0px 12px 24px rgba(127, 127, 127, 0.3);
+    border-radius: 5px;
+    width: 100%;
+    position: relative;
+    height: 155px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 5px solid #22bf95;
+    margin-top: 30px; }
+    .cybersecurity .cards .card .cybersecurity-title {
+      font-family: "Aclonica", sans-serif;
+      font-size: 24px;
+      line-height: 36px;
+      color: #191919;
+      margin: 0;
+      padding-bottom: 10px; }
+    .cybersecurity .cards .card .cybersecurity-description {
+      width: 235px;
+      font-family: "Aclonica", sans-serif;
+      font-weight: normal;
+      font-size: 10px;
+      line-height: 24px;
+      color: #191919;
+      margin: 0; }
+  .cybersecurity .cards .cybersecurity-img {
+    padding-right: 40px;
+    padding-left: 10px;
+    width: 75px;
+    height: 75px; }
+
+.cybersecurity .hidden-info {
+  opacity: 0;
+  transition: all 0.3s ease-in-out; }
+
+.cybersecurity .info:hover + .hidden-info {
+  display: block; }
+
+.cyber-button {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 180px;
+  height: 40px;
+  border: 1px solid #22bf95;
+  box-sizing: border-box;
+  border-radius: 50%;
+  font-family: "Acme", sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #22bf95;
+  cursor: pointer; }
+
+.cybersecurity-text {
+  padding-left: 15px; }
+
+.info {
+  position: absolute;
+  right: 10px;
+  bottom: 10px; }
+
+@media screen and (min-width: 1920px) {
+  .cybersecurity-text {
+    padding-left: 40px; }
+  .info {
+    position: absolute;
+    right: 10px;
+    bottom: 10px; } }
+
+@media screen and (min-width: 500px) {
+  .cybersecurity .cards .card {
+    width: 500px;
+    margin-right: 10px; } }

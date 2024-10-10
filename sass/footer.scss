@@ -1,0 +1,216 @@
+@import "variables";
+.footer {
+  background-color: #f2f2f2;
+  .footer-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    padding: 0;
+    .footer-wrapper {
+      width: 100%;
+      .phone-number {
+        font-family: "Aclonica", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: $gray-color;
+        text-decoration: none;
+      }
+      .footer-title {
+        width: 300px;
+        font-family: "Aclonica", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: $gray-color;
+        text-decoration: none;
+      }
+      .footer-wrapper-list {
+        .footer-list {
+          padding-left: 20px;
+          .footer-link {
+            font-family: "Acme", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 24px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: $gray-color;
+            list-style-type: none;
+          }
+        }
+      }
+      .footer-wrapper-addresses {
+        .address {
+          padding-left: 20px;
+          display: flex;
+          border-top: 2px solid $green-color;
+          flex-direction: column;
+        }
+        .address-street {
+          font-family: Aclonica;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 24px;
+          color: $gray-color;
+        }
+        .view-map {
+          font-family: Aclonica;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 24px;
+          text-decoration-line: none;
+          color: $green-color;
+        }
+      }
+    }
+    .socials {
+      display: flex;
+      flex-direction: column;
+      border-top: 1.5px solid #b2b2b2;
+      margin-top: 20px;
+      padding-top: 10px;
+      .socials-links {
+        display: flex;
+        justify-content: space-around;
+      }
+      .for-footer-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .footer-logo {
+          font-size: 40px;
+          font-weight: 700;
+          color: $gray-color;
+          text-transform: uppercase;
+          font-family: "Actor", sans-serif;
+          letter-spacing: 2px;
+        }
+
+        .footer-sub-logo {
+          font-weight: 700;
+          color: $gray-color;
+          text-transform: uppercase;
+          font-family: "Actor", sans-serif;
+          letter-spacing: 2px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .footer {
+    .footer-box {
+      align-items: flex-start;
+      width: 100%;
+      .footer-wrapper {
+        padding-top: 50px !important;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding: 0;
+        .phone-number {
+          font-family: "Aclonica", sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 24px;
+          color: $gray-color;
+          text-decoration: none;
+        }
+        .footer-title {
+          width: 300px;
+          font-family: "Aclonica", sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 24px;
+          line-height: 24px;
+          color: $gray-color;
+          text-decoration: none;
+          padding-right: 50px;
+        }
+        .footer-wrapper-list {
+          margin-right: 100px;
+          .footer-list {
+            .footer-link {
+              font-family: "Acme", sans-serif;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 12px;
+              line-height: 24px;
+              letter-spacing: 2px;
+              text-transform: uppercase;
+              color: $gray-color;
+              list-style-type: none;
+              margin-bottom: 15px;
+            }
+          }
+        }
+        .footer-wrapper-addresses {
+          .address {
+            .view-map {
+              font-size: 16px;
+            }
+
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .address-street {
+              width: 270px;
+              padding-right: 100px;
+            }
+            .phone-number {
+              padding-right: 100px;
+            }
+          }
+        }
+      }
+      .socials {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #b2b2b2;
+        margin-top: 15px;
+        .socials-links {
+          display: flex;
+          justify-content: space-around;
+          width: 375px;
+        }
+        .for-footer-logo {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding-right: 40px;
+
+          .footer-logo {
+            font-size: 40px;
+            font-weight: 700;
+            color: $gray-color;
+            text-transform: uppercase;
+            font-family: "Actor", sans-serif;
+            letter-spacing: 2px;
+          }
+
+          .footer-sub-logo {
+            font-weight: 700;
+            color: $gray-color;
+            text-transform: uppercase;
+            font-family: "Actor", sans-serif;
+            letter-spacing: 2px;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
